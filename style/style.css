@@ -1,0 +1,154 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.container {
+  max-width: 90%;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.intro {
+  margin-top: 104px;
+  font-size: 48px;
+  text-align: center;
+}
+.my-name {
+  text-align: center;
+  font-size: 96px;
+}
+
+.my-location {
+  text-align: center;
+  font-size: 24px;
+  opacity: 0.7;
+}
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.primary-nav {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.btn-primary {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 16px;
+  font-size: 400;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+  text-color: white;
+}
+
+.btn-outline-primary {
+  margin: 24px;
+  padding: 16px;
+  border-color: var(--primary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  margin: 24px;
+  padding: 16px;
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 4px;
+}
